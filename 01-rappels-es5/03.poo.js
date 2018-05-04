@@ -30,3 +30,13 @@ console.log(jules.age);
 
 console.log(jules.getInitiales());
 
+var robert = {
+    prenom: 'Robert',
+    nom: 'LEPREFET',
+    pseudo: 'robert77',
+    getNomcomplet:  function(){
+        return  this.nom + this.prenom + this.pseudo;
+    }
+}
+
+console.log(robert.getNomcomplet());

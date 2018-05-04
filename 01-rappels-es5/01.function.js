@@ -33,3 +33,4 @@ var nombre2 = 20;
  afficherOperation("Soustraction",15,5,function(nb1,nb2){
     return nb1 - nb2;
  });
+ 
